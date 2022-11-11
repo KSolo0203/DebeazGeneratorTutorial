@@ -1,0 +1,17 @@
+190.128.56.113 - - [11/Nov/2022:15:09:34 -0600] "GET /dynamic/index.html HTTP/1.0" 200 5653
+195.131.84.219 - - [11/Nov/2022:15:09:34 -0600] "GET /cgi-bin/wiki.pl?SwigFaq/MzScheme HTTP/1.1" 200 2865
+201.24.117.154 - - [11/Nov/2022:15:09:35 -0600] "GET /python/tutorial/beazley_advanced_python/Slides/SLIDE086.HTM HTTP/1.0" 200 1726
+194.209.8.145 - - [11/Nov/2022:15:09:36 -0600] "GET /cgi-bin/wiki.pl?SwigWikiDocs/Perl5Typemaps HTTP/1.1" 200 3613
+24.1.159.241 - - [11/Nov/2022:15:09:36 -0600] "GET /python/tutorial/beazley_advanced_python/Slides/SLIDE069.HTM HTTP/1.0" 200 1702
+88.80.205.215 - - [11/Nov/2022:15:09:37 -0600] "GET /papers/Python2001/python.html HTTP/1.1" 200 38356
+198.54.202.210 - - [11/Nov/2022:15:09:38 -0600] "GET /ply/ply-2.2.tar.gz HTTP/1.0" 304 -
+82.154.251.108 - - [11/Nov/2022:15:09:38 -0600] "GET /dynamic/dowstocks.csv HTTP/1.1" 200 589814
+217.10.60.85 - - [11/Nov/2022:15:09:38 -0600] "GET /cgi-bin/wiki.pl?SwigFaq/Tcl HTTP/1.1" 200 1399
+217.237.70.128 - - [11/Nov/2022:15:09:39 -0600] "GET /dynamic/06FilesAndText.pdf HTTP/1.1" 200 121887
+128.135.11.245 - - [11/Nov/2022:15:09:39 -0600] "GET /python.html HTTP/1.1" 304 -
+74.6.23.77 - - [11/Nov/2022:15:09:39 -0600] "GET /python/tutorial/beazley_advanced_python/Slides/SLIDE040.HTM HTTP/1.0" 200 1910
+74.6.24.112 - - [11/Nov/2022:15:09:39 -0600] "GET /cgi-bin/wiki.pl?SwigFaq/Typemaps HTTP/1.1" 200 4084
+84.237.120.134 - - [11/Nov/2022:15:09:40 -0600] "GET /dynamic/08GeneratorNetwork.pdf HTTP/1.1" 206 339721
+84.110.191.75 - - [11/Nov/2022:15:09:40 -0600] "GET /dynamic/dowstocks.csv HTTP/1.1" 304 -
+193.158.76.56 - - [11/Nov/2022:15:09:40 -0600] "GET /dynamic/06FilesAndText.pdf HTTP/1.1" 200 279116
+67.67.152.241 - - [11/Nov/2022:15:09:41 -0600] "GET /python/tutorial/beazley_advanced_python/Slides/ HTTP/1.0" 403 245
