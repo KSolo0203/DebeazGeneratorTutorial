@@ -5,8 +5,9 @@
 
 def coroutine(func):
     def start(*args,**kwargs):
-        cr = func(*args,**kwargs)        
-        return next(cr)
+        cr = func(*args,**kwargs)
+        next(cr)       
+        return cr
     return start
 
 # Example use
@@ -21,6 +22,6 @@ if __name__ == '__main__':
 
     g = grep("python")
     # Notice how you don't need a next() call here
-    g.send("Yeah, but no, but yeah, but no")
-    g.send("A series of tubes")
-    g.send("python generators rock!")
+    g.send("Yeah, but python, but yeah, but no")
+    g.send("A series of python")
+    g.send("python generators rock!") 

@@ -8,7 +8,7 @@ def grep(pattern,lines):
              yield line
 
 if __name__ == '__main__':
-    from follow import follow
+    from follow_p3 import follow
 
     # Set up a processing pipe : tail -f | grep python
     logfile  = open("access-log")
@@ -17,4 +17,4 @@ if __name__ == '__main__':
 
     # Pull results out of the processing pipeline
     for line in pylines:
-        print line,
+        print(line,)

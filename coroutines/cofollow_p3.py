@@ -5,7 +5,7 @@
 # Run the program logsim.py in the background to get a data
 # source.
 
-from coroutine import coroutine
+from coroutine_p3 import coroutine
 
 # A data source.  This is not a coroutine, but it sends
 # data into one (target)
@@ -31,4 +31,4 @@ def printer():
 # Example use
 if __name__ == '__main__':
     f = open("access-log")
-    follow(printer(),f)
+    follow(f, printer())

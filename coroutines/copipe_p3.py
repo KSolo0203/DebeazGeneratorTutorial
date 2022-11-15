@@ -5,7 +5,7 @@
 # Run the program logsim.py in the background to get a data
 # source.
 
-from coroutine import coroutine
+from coroutine_p3 import coroutine
 
 # A data source.  This is not a coroutine, but it sends
 # data into one (target)
@@ -35,7 +35,7 @@ def grep(pattern,target):
 def printer():
     while True:
          line = (yield)
-         print line,
+         print(line,)
 
 # Example use
 if __name__ == '__main__':

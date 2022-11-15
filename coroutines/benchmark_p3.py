@@ -13,7 +13,7 @@ class GrepHandler(object):
             self.target.send(line)
 
 # A coroutine
-from coroutine import coroutine
+from coroutine_p3 import coroutine
 
 @coroutine
 def grep(pattern,target):
@@ -34,8 +34,8 @@ p2   = GrepHandler('python',null())   # Object
 
 from timeit import timeit
 
-print "coroutine:", timeit("p1.send(line)",
-                          "from __main__ import line, p1")
+print("coroutine:", timeit("p1.send(line)",
+                          "from __main__ import line, p1"))
 
-print "object:", timeit("p2.send(line)",
-                        "from __main__ import line, p2")
+print("object:", timeit("p2.send(line)",
+                        "from __main__ import line, p2"))
